@@ -14,7 +14,7 @@
         <!-- =================================
                     navbar area start
         ================================== -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand me-5 fw-bolder fs-4" href="#">Tech Guy</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,6 +113,14 @@
          ================================== -->
         <section id="course" class="my-5">
             <div class="container">
+                <div class="course-title text-center py-5">
+                    <h2 class="display-6 fw-bold">Discover Our Popular <br>courses
+                    </h2>
+                    <p class="w-50 mx-auto">It is a long established fact that a reader will be distracted by
+                        the readable content of
+                        a page when looking at its layout.
+                    </p>
+                </div>
                 <div class="row row-cols-1 row-cols-lg-2  g-5 d-md-flex">
                     <div class="col">
                         <div class="card mb-3">
@@ -223,10 +231,78 @@
                         </div>
                     </div>
                 </div>
+                <div class="card-button text-center my-5">
+                    <a href="#" class="btn btn-primary fw-semibold rounded">View All</a>
+                </div>
             </div>
         </section>
         <!-- ================================
                     course area end
+        ================================== -->
+        <!-- ================================
+                    question area start
+        ================================== -->
+        <section id="question">
+            <div class="container">
+                <div class="question-title text-center py-5">
+                    <h2 class="display-6 fw-bold">Frequently Asked Questions
+                    </h2>
+                    <p class="w-50 mx-auto"> Here are some frequently asked questions and their answers. If you have any question feel free to ask! 
+                    </p>
+                </div>
+                <div class="accordion col-sm-12 col-md-12 col-lg-10 mx-auto" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            What are the Differences between Grid and Flexbox?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">CSS Grid and Flexbox are layout models that share similarities and can be used together. The key difference is that CSS Grid can be used to create two-dimensional layouts, while Flexbox can only be used to create one-dimensional layouts. That means you can place components along the X- and Y-axis in CSS Grid and only one axis in Flexbox.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            What are the Differences between Tailwind and Bootsrap?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar. On the other hand Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Websites created using Tailwind CSS are much more customizable.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          What is CSS box-model?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            What is an HTML Semantic Tag?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed. 
+                            The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- ================================
+                    question area end
         ================================== -->
     </main>
     <!-- Script -->
